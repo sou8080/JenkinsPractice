@@ -89,9 +89,25 @@ public class Windowshandling
 		driver.findElement(By.linkText("General")).click();
 		ts= ts.info("General Linked Clicked");
 		
-		report.flush();
 	}
 	
-	
+	@Test (priority =4)
+	public void close()
+	{
+		WebElement data = driver.findElement(By.xpath("//*[@id=\"titlebar\"]/div[2]/h1/a"));
+		String actValue = data.getText();
+		System.out.println(actValue);
+		String expValue = "Gen";
+		
+		if(!actValue.equals(expValue))
+		{
+			ts = ts.fail(expValue + "Not matching with" + actValue);
+		}
+		
+				driver.close();
+				ts = ts.info("Browser Closed");
+				
+				report.flush();
+	}
 
 }
