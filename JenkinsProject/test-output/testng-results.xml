@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26649" started-at="2022-10-01T21:20:33 IST" finished-at="2022-10-01T21:20:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26649" started-at="2022-10-01T21:20:33 IST" finished-at="2022-10-01T21:20:59 IST">
+      <class name="JenkinsTest.Windowshandling">
+        <test-method status="PASS" signature="url()[pri:1, instance:JenkinsTest.Windowshandling@aa2946]" name="url" duration-ms="11369" started-at="2022-10-01T21:20:33 IST" finished-at="2022-10-01T21:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="login()[pri:2, instance:JenkinsTest.Windowshandling@aa2946]" name="login" duration-ms="1456" started-at="2022-10-01T21:20:44 IST" finished-at="2022-10-01T21:20:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newPage()[pri:3, instance:JenkinsTest.Windowshandling@aa2946]" name="newPage" duration-ms="13761" started-at="2022-10-01T21:20:46 IST" finished-at="2022-10-01T21:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPage -->
+      </class> <!-- JenkinsTest.Windowshandling -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
